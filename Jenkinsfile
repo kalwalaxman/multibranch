@@ -1,10 +1,10 @@
 node('master') 
 {
-   stage('ContnuousDownload') 
+   stage('ContnuousDownload-master') 
    {
       git 'https://github.com/selenium-saikrishna/maven.git'
    }
-   stage('ContnuousBuild') 
+   stage('ContnuousBuild-master') 
    {
       sh label: '', script: 'mvn package'
    }
