@@ -1,5 +1,5 @@
 Hey, This is srujana World!
 <html>
-  <body>
+  <body bgcolor="pink">
     <h1> JAI SRUJANA </h1>
     
